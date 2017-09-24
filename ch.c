@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<ctype.h>
+main()
+{
+char ch;
+scanf("%c",&ch);
+if(isUpper(ch))
+{
+if(ch=='A'||ch=='E'||ch=='I'||ch='O'||ch='U')
+printf("Vowel");
+else
+printf("Consonant");
+}
+else
+{
+if(ch=='a'||ch=='e'||ch=='i'||ch='o'||ch='u')
+printf("Vowel");
+else
+printf("Consonant");
+}
+}
